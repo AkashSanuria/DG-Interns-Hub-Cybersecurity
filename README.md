@@ -72,14 +72,53 @@ network analysis and security concepts.
 
 ---
 
+### 🛡️ Week 3 - Network Security Assessment & Hardening
+
+During Week 3, I focused on practical network security assessment,
+packet analysis, port scanning, and firewall hardening in an
+authorized virtual lab environment.
+
+**Topics Covered:**
+- Network Host Discovery
+- Nmap Port Scanning
+- Service & Version Detection
+- TCP SYN Analysis
+- ICMP Traffic Analysis
+- DNS Traffic Analysis
+- HTTP Traffic Analysis
+- Firewall Configuration
+- Network Security Hardening
+- Post-Hardening Verification
+
+**Hands-on Practice:**
+- Identified the Kali Linux network interface and IP configuration
+- Discovered active hosts using Nmap
+- Performed authorized port and service scans
+- Captured network packets using Wireshark
+- Analyzed ICMP Echo Request and Echo Reply traffic
+- Analyzed DNS queries and responses
+- Observed HTTP request and response traffic
+- Analyzed TCP SYN and SYN/ACK packets
+- Enabled and configured the UFW firewall
+- Applied deny rules for FTP port 21 and Telnet port 23
+- Verified firewall rules and security configuration
+- Performed post-hardening Nmap verification
+
+📁 **Documentation:** Available inside the `Week-3` folder.
+
+---
+
 ## 🛠️ Tools Used
 
 | Tool | Purpose |
 |------|---------|
 | Wireshark | Network packet capture and traffic analysis |
-| Nmap | Network scanning and service detection |
+| Nmap | Network discovery, port scanning and service detection |
 | Cisco Packet Tracer | Network design and simulation |
-| Command Prompt | Network commands and connectivity testing |
+| UFW Firewall | Linux firewall configuration and security hardening |
+| Kali Linux | Cybersecurity lab and network security testing |
+| Oracle VirtualBox | Safe virtual lab environment |
+| Command Prompt / Terminal | Network commands and connectivity testing |
 
 ---
 
@@ -91,6 +130,10 @@ DG-Interns-Hub-Cybersecurity/
   - Final Report
   - Presentation
 - Week-2/
+  - README.md
+  - Final Report
+  - Presentation
+- Week-3/
   - README.md
   - Final Report
   - Presentation
@@ -109,6 +152,8 @@ I am continuously developing skills in:
 - Network Security
 - Traffic Analysis
 - Network Scanning
+- Firewall Configuration
+- Security Hardening
 - Security Operations
 - Troubleshooting
 
@@ -125,7 +170,10 @@ starting my career as an **SOC Analyst / Cybersecurity Analyst**.
 
 All cybersecurity activities documented in this repository were
 performed for educational purposes using authorized targets and
-safe/local simulation environments.
+safe/local virtual lab environments.
+
+No unauthorized systems or networks were targeted during these
+practical exercises.
 
 ---
 
